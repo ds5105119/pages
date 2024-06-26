@@ -8,7 +8,7 @@ export const LoadingIcon = (props) => {
     <svg
       className={cs(styles.loadingIcon, className)}
       {...rest}
-      viewBox='0 0 24 24'
+      viewBox='0 0 12 12'
     >
       <defs>
         <linearGradient
@@ -34,24 +34,24 @@ export const LoadingIcon = (props) => {
               id='Oval-2'
               stroke='url(#linearGradient-1)'
               strokeWidth='4'
-              cx='10'
-              cy='12'
-              r='10'
+              cx='5'
+              cy='6'
+              r='5'
             />
             <path
               d='M10,2 C4.4771525,2 0,6.4771525 0,12'
               id='Oval-2'
               stroke='rgba(164, 164, 164, 1)'
-              strokeWidth='4'
+              strokeWidth='2'
             />
             <rect
               id='Rectangle-1'
               fill='rgba(164, 164, 164, 1)'
-              x='8'
+              x='4'
               y='0'
-              width='4'
-              height='4'
-              rx='8'
+              width='2'
+              height='2'
+              rx='4'
             />
           </g>
         </g>
