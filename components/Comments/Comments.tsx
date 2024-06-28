@@ -71,7 +71,7 @@ const Comments = ({ pageId, recordMap }: CommentsProps) => {
             <div className="bg" />
             <textarea
               name="content"
-              placeholder={`안녕하세요 👋\n이곳에 댓글 내용을 작성해주세요.`}
+              placeholder={`이곳에 댓글 내용을 작성해주세요. 👋`}
               rows={6}
               value={formik.values.content}
               onChange={formik.handleChange}
